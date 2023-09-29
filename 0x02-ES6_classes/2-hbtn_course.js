@@ -5,7 +5,6 @@ export default class HolbertonCourse {
     this._students = Array.isArray(students) ? students : [];
   }
 
-  // Getter and Setter for 'name'
   get name() {
     return this._name;
   }
@@ -18,7 +17,6 @@ export default class HolbertonCourse {
     }
   }
 
-  // Getter and Setter for 'length'
   get length() {
     return this._length;
   }
@@ -31,7 +29,6 @@ export default class HolbertonCourse {
     }
   }
 
-  // Getter and Setter for 'students'
   get students() {
     return this._students;
   }
