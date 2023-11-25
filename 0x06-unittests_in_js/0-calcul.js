@@ -1,3 +1,3 @@
-const calculate = (a, b) => Math.round(a) + Math.round(b);
+const calculateNumber = (a, b) => Math.round(a) + Math.round(b);
 
-console.log(calculate(a, b));
+console.log(calculateNumber(a, b));
